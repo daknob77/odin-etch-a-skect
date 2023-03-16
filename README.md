@@ -1,1 +1,4 @@
-# odin-etch-a-skect
+# odin-etch-a-sketch
+
+The Odin Project 
+Etch-a-sketch Activity

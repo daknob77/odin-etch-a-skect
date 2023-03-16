@@ -15,5 +15,17 @@ function makeGrid(size){
     }
 }
 
+function inputGridSize(amount){
+    if (amount >= 1  || amount <= 100){
+        makeGrid(amount);
+    } else {
+        alert('Invalid Amount of Squares');
+    }
+}
 
+makeGrid(16);
 
+const inputs = document.querySelector('.inputSlider');
+
+inputs.forEach(input => input.addEventListener('change'));
+inputs.forEach(input => input.addEventListener('mousemove'));
